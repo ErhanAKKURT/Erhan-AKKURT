@@ -3,7 +3,7 @@ import sqlite3
 import pandas as pd
 
 def create_connection():
-    conn=sqlite3.connect("phoneBook.db")
+    conn=sqlite3.connect("phonebook.db")
     return conn
 
 def add_contact(name,surname,phone,email):
