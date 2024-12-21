@@ -16,7 +16,7 @@ sifre = khsec+bhsec+rksec+sysec
 random.shuffle(sifre)
 sifre = "".join(sifre)
 st.write("Şifre Üretmek İçin Butona Tıklayınız.")
-btn = st.button("Şifre")
+btn = st.button("Şifre Üret")
 if btn:
     st.write(sifre)
 
