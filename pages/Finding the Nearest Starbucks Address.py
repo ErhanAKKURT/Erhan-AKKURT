@@ -45,7 +45,6 @@ plugins.MarkerCluster(locations=world.values.tolist()).add_to(m)
 m_html = m._repr_html_()
 st.components.v1.html(m_html, width=700, height=500)
 
-st.header("Kaynak Kodlar")
 kod='''
 import streamlit as st
 import pandas as pd
@@ -94,3 +93,6 @@ plugins.MarkerCluster(locations=world.values.tolist()).add_to(m)
 m_html = m._repr_html_()
 st.components.v1.html(m_html, width=700, height=500)
 '''
+
+st.header('Kaynak Kodları')
+st.code(kod,language='python')
