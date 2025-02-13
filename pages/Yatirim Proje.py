@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.markdown('<h1 style="color:#274866;">Konut Projesi</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="color:#274866;">Seviyom Gız Seni Alişşşş</h1>', unsafe_allow_html=True)
 
 with st.sidebar:
     st.caption("Form'da belirtecek olduğunuz değerler arasında Daire alma ve Borç süreçlerinizi inceleyebilirsiniz.")
