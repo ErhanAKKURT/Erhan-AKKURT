@@ -28,7 +28,7 @@ def baslik(anaPara, aylikGelir, evFiyat, kiraGelir, krediSure, krediAy, pesinatY
                        f" Aylık kredi :blue[{round(krediOdeme)} ₺] ödemeniz çıkmaktadır.")
 
     st.caption(
-        ':blue[NOT: Butonuna tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
+        ':blue[NOT: Butona tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
 
 
 def kullanici_veriler():
@@ -214,7 +214,7 @@ def baslik(anaPara, aylikGelir, evFiyat, kiraGelir, krediSure, krediAy, pesinatY
                        f" Aylık kredi :blue[{round(krediOdeme)} ₺] ödemeniz çıkmaktadır.")
 
     st.caption(
-        ':blue[NOT: Butonuna tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
+        ':blue[NOT: Butona tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
 
 
 def kullanici_veriler():
