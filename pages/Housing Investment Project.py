@@ -27,15 +27,13 @@ def baslik(anaPara, aylikGelir, evFiyat, kiraGelir, krediSure, krediAy, pesinatY
                        f"Buna göre, :blue[{format(int(evFiyat), ',')} ₺] değerindeki bir dairenin :blue[{format(int(pesinat), ',')}] ₺ peşinatını ödediğinizi varsayarsak, "
                        f" Aylık kredi :blue[{round(krediOdeme)} ₺] ödemeniz çıkmaktadır.")
 
-    st.caption(
-        ':blue[NOT: Butona tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
+    st.caption(':blue[NOT: Butona tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
 
 
 def kullanici_veriler():
     # Kullanıcıdan gerekli verileri alıp ve döndüren fonksiyon.
     with st.sidebar:
-        st.caption(
-            "Form'da belirtecek olduğunuz değerler arasında Daire alma ve Borç süreçlerinizi inceleyebilirsiniz.")
+        st.caption("Form'da belirtecek olduğunuz değerler arasında Daire alma ve Borç süreçlerinizi inceleyebilirsiniz.")
         belirtilenYas = st.slider("Yaş Aralığını Belirtiniz:", 0, 120, (25, 65))
         st.caption(f":blue[Belirtmiş olduğunuz yaş ' {belirtilenYas[0]}-{belirtilenYas[1]} ' yaş aralığıdır.]")
         toplamAy = int((belirtilenYas[1] - belirtilenYas[0]) * 12)
@@ -139,9 +137,7 @@ def sonuc_gosterim(df, belirtilenYas, mevcutEv, kiraGelir, toplamKrediBorcu, kre
         st.dataframe(df)
 
     with st.container():
-        st.markdown(
-            """<style>.custom-container {border: 2px solid #315d85; padding: 20px; border-radius: 10px; color: #315d85;margin-bottom:10px;}</style>""",
-            unsafe_allow_html=True)
+        st.markdown("""<style>.custom-container {border: 2px solid #315d85; padding: 20px; border-radius: 10px; color: #315d85;margin-bottom:10px;}</style>""",unsafe_allow_html=True)
         with st.container():
             st.markdown(
                 '<div class="custom-container"><p style="text-align:center">- PROJE İÇİN İSTENİLEN ÖZET -</p>'
@@ -213,15 +209,13 @@ def baslik(anaPara, aylikGelir, evFiyat, kiraGelir, krediSure, krediAy, pesinatY
                        f"Buna göre, :blue[{format(int(evFiyat), ',')} ₺] değerindeki bir dairenin :blue[{format(int(pesinat), ',')}] ₺ peşinatını ödediğinizi varsayarsak, "
                        f" Aylık kredi :blue[{round(krediOdeme)} ₺] ödemeniz çıkmaktadır.")
 
-    st.caption(
-        ':blue[NOT: Butona tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
+    st.caption(':blue[NOT: Butona tıkladığınız an da yukarıda belirtmiş olduğunuz değerler çerçevesinde hesaplama yapılacaktır!]')
 
 
 def kullanici_veriler():
     # Kullanıcıdan gerekli verileri alıp ve döndüren fonksiyon.
     with st.sidebar:
-        st.caption(
-            "Form'da belirtecek olduğunuz değerler arasında Daire alma ve Borç süreçlerinizi inceleyebilirsiniz.")
+        st.caption("Form'da belirtecek olduğunuz değerler arasında Daire alma ve Borç süreçlerinizi inceleyebilirsiniz.")
         belirtilenYas = st.slider("Yaş Aralığını Belirtiniz:", 0, 120, (25, 65))
         st.caption(f":blue[Belirtmiş olduğunuz yaş ' {belirtilenYas[0]}-{belirtilenYas[1]} ' yaş aralığıdır.]")
         toplamAy = int((belirtilenYas[1] - belirtilenYas[0]) * 12)
